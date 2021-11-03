@@ -1,5 +1,5 @@
 module.exports = {
-  async redirects_() {
+  async redirects() {
     return [
       {
         source: '/about',
