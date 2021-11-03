@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
           name="google-site-verification"
           content="oeOmYiVjNRGQRPQzD44J8b4RFz_pTJn_k7ZhhmMqw0Y"
         />
-        <title>{siteTitle}</title>
+        <title>{siteTitle + 'test'}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
